@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.000529] (-) JobUnselected: {'identifier': 'diff_drive_robot_gz_sim'}
+[0.000566] (robot_motion_controller) JobQueued: {'identifier': 'robot_motion_controller', 'dependencies': OrderedDict()}
+[0.000591] (robot_motion_controller) JobStarted: {'identifier': 'robot_motion_controller'}
+[0.010508] (robot_motion_controller) JobProgress: {'identifier': 'robot_motion_controller', 'progress': 'cmake'}
+[0.011076] (robot_motion_controller) JobProgress: {'identifier': 'robot_motion_controller', 'progress': 'build'}
+[0.011884] (robot_motion_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eecms/tut_ws/build/robot_motion_controller', '--', '-j6', '-l6'], 'cwd': '/home/eecms/tut_ws/build/robot_motion_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'eecms'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/eecms'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/eecms/tut_ws'), ('TERM_PROGRAM_VERSION', '1.102.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '6895'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '7255'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus,guid=9ad191020c90933eb70d9b5968a3bf0d'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '19392'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'eecms'), ('JOURNAL_STREAM', '8:73015'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/V-2204-HPLC-01:@/tmp/.ICE-unix/7255,unix/V-2204-HPLC-01:/tmp/.ICE-unix/7255'), ('INVOCATION_ID', '0f793d096bad47f897ac05b1658aa081'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':100'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1003/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1003/vscode-git-5b63a6c0f6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1003/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eecms/tut_ws/build/robot_motion_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1003/bus,guid=9ad191020c90933eb70d9b5968a3bf0d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.055413] (robot_motion_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target person_follower\x1b[0m\n'}
+[0.071752] (robot_motion_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/person_follower.dir/src/person_follower.cpp.o\x1b[0m\n'}
+[0.099842] (-) TimerEvent: {}
+[0.200196] (-) TimerEvent: {}
+[0.301129] (-) TimerEvent: {}
+[0.402020] (-) TimerEvent: {}
+[0.503814] (-) TimerEvent: {}
+[0.604181] (-) TimerEvent: {}
+[0.704531] (-) TimerEvent: {}
+[0.804878] (-) TimerEvent: {}
+[0.905221] (-) TimerEvent: {}
+[1.005567] (-) TimerEvent: {}
+[1.105926] (-) TimerEvent: {}
+[1.206269] (-) TimerEvent: {}
+[1.306604] (-) TimerEvent: {}
+[1.406984] (-) TimerEvent: {}
+[1.507325] (-) TimerEvent: {}
+[1.607650] (-) TimerEvent: {}
+[1.707983] (-) TimerEvent: {}
+[1.808362] (-) TimerEvent: {}
+[1.908708] (-) TimerEvent: {}
+[2.009061] (-) TimerEvent: {}
+[2.109448] (-) TimerEvent: {}
+[2.210194] (-) TimerEvent: {}
+[2.310540] (-) TimerEvent: {}
+[2.410886] (-) TimerEvent: {}
+[2.511234] (-) TimerEvent: {}
+[2.611577] (-) TimerEvent: {}
+[2.711955] (-) TimerEvent: {}
+[2.812371] (-) TimerEvent: {}
+[2.912755] (-) TimerEvent: {}
+[3.013209] (-) TimerEvent: {}
+[3.113553] (-) TimerEvent: {}
+[3.213976] (-) TimerEvent: {}
+[3.314373] (-) TimerEvent: {}
+[3.414749] (-) TimerEvent: {}
+[3.515201] (-) TimerEvent: {}
+[3.615555] (-) TimerEvent: {}
+[3.715895] (-) TimerEvent: {}
+[3.816279] (-) TimerEvent: {}
+[3.916650] (-) TimerEvent: {}
+[4.017012] (-) TimerEvent: {}
+[4.117397] (-) TimerEvent: {}
+[4.217791] (-) TimerEvent: {}
+[4.318238] (-) TimerEvent: {}
+[4.418573] (-) TimerEvent: {}
+[4.518924] (-) TimerEvent: {}
+[4.619286] (-) TimerEvent: {}
+[4.719676] (-) TimerEvent: {}
+[4.820214] (-) TimerEvent: {}
+[4.922214] (-) TimerEvent: {}
+[5.022537] (-) TimerEvent: {}
+[5.124585] (-) TimerEvent: {}
+[5.225092] (-) TimerEvent: {}
+[5.325537] (-) TimerEvent: {}
+[5.427469] (-) TimerEvent: {}
+[5.527793] (-) TimerEvent: {}
+[5.628174] (-) TimerEvent: {}
+[5.728571] (-) TimerEvent: {}
+[5.828954] (-) TimerEvent: {}
+[5.929389] (-) TimerEvent: {}
+[6.029755] (-) TimerEvent: {}
+[6.130093] (-) TimerEvent: {}
+[6.230449] (-) TimerEvent: {}
+[6.330796] (-) TimerEvent: {}
+[6.433362] (-) TimerEvent: {}
+[6.534138] (-) TimerEvent: {}
+[6.634827] (-) TimerEvent: {}
+[6.735272] (-) TimerEvent: {}
+[6.835613] (-) TimerEvent: {}
+[6.936242] (-) TimerEvent: {}
+[7.036590] (-) TimerEvent: {}
+[7.136907] (-) TimerEvent: {}
+[7.237248] (-) TimerEvent: {}
+[7.337575] (-) TimerEvent: {}
+[7.437894] (-) TimerEvent: {}
+[7.538231] (-) TimerEvent: {}
+[7.638581] (-) TimerEvent: {}
+[7.738922] (-) TimerEvent: {}
+[7.839266] (-) TimerEvent: {}
+[7.939618] (-) TimerEvent: {}
+[8.039995] (-) TimerEvent: {}
+[8.140358] (-) TimerEvent: {}
+[8.240668] (-) TimerEvent: {}
+[8.340980] (-) TimerEvent: {}
+[8.441327] (-) TimerEvent: {}
+[8.541659] (-) TimerEvent: {}
+[8.641990] (-) TimerEvent: {}
+[8.742357] (-) TimerEvent: {}
+[8.842694] (-) TimerEvent: {}
+[8.943039] (-) TimerEvent: {}
+[9.043430] (-) TimerEvent: {}
+[9.073985] (robot_motion_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable person_follower\x1b[0m\n'}
+[9.143552] (-) TimerEvent: {}
+[9.243912] (-) TimerEvent: {}
+[9.344252] (-) TimerEvent: {}
+[9.444603] (-) TimerEvent: {}
+[9.468043] (robot_motion_controller) StdoutLine: {'line': b'[100%] Built target person_follower\n'}
+[9.479370] (robot_motion_controller) CommandEnded: {'returncode': 0}
+[9.480088] (robot_motion_controller) JobProgress: {'identifier': 'robot_motion_controller', 'progress': 'install'}
+[9.489378] (robot_motion_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/eecms/tut_ws/build/robot_motion_controller'], 'cwd': '/home/eecms/tut_ws/build/robot_motion_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'eecms'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/eecms'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/eecms/tut_ws'), ('TERM_PROGRAM_VERSION', '1.102.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '6895'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '7255'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus,guid=9ad191020c90933eb70d9b5968a3bf0d'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '19392'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'eecms'), ('JOURNAL_STREAM', '8:73015'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/V-2204-HPLC-01:@/tmp/.ICE-unix/7255,unix/V-2204-HPLC-01:/tmp/.ICE-unix/7255'), ('INVOCATION_ID', '0f793d096bad47f897ac05b1658aa081'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':100'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1003/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1003/vscode-git-5b63a6c0f6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1003/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eecms/tut_ws/build/robot_motion_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1003/bus,guid=9ad191020c90933eb70d9b5968a3bf0d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.496630] (robot_motion_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.496883] (robot_motion_controller) StdoutLine: {'line': b'-- Installing: /home/eecms/tut_ws/install/robot_motion_controller/lib/robot_motion_controller/person_follower\n'}
+[9.500504] (robot_motion_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/eecms/tut_ws/install/robot_motion_controller/lib/robot_motion_controller/person_follower" to ""\n'}
+[9.500686] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/ament_index/resource_index/package_run_dependencies/robot_motion_controller\n'}
+[9.500757] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/ament_index/resource_index/parent_prefix_path/robot_motion_controller\n'}
+[9.500821] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/environment/ament_prefix_path.sh\n'}
+[9.500949] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/environment/ament_prefix_path.dsv\n'}
+[9.501011] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/environment/path.sh\n'}
+[9.501072] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/environment/path.dsv\n'}
+[9.501136] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/local_setup.bash\n'}
+[9.501218] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/local_setup.sh\n'}
+[9.501280] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/local_setup.zsh\n'}
+[9.501347] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/local_setup.dsv\n'}
+[9.501422] (robot_motion_controller) StdoutLine: {'line': b'-- Installing: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/package.dsv\n'}
+[9.501503] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/ament_index/resource_index/packages/robot_motion_controller\n'}
+[9.501549] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/cmake/robot_motion_controllerConfig.cmake\n'}
+[9.501600] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/cmake/robot_motion_controllerConfig-version.cmake\n'}
+[9.501699] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/package.xml\n'}
+[9.502804] (robot_motion_controller) CommandEnded: {'returncode': 0}
+[9.518084] (robot_motion_controller) JobEnded: {'identifier': 'robot_motion_controller', 'rc': 0}
+[9.518698] (-) EventReactorShutdown: {}
