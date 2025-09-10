@@ -1,0 +1,28 @@
+[0.024s] Invoking command in '/home/eecms/tut_ws/build/robot_motion_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eecms/tut_ws/build/robot_motion_controller -- -j6 -l6
+[0.162s] [ 50%] Built target person_follower
+[0.209s] [ 75%] [32mBuilding CXX object CMakeFiles/wall_follower.dir/src/wall_follower.cpp.o[0m
+[11.238s] [100%] [32m[1mLinking CXX executable wall_follower[0m
+[11.802s] [100%] Built target wall_follower
+[11.815s] Invoked command in '/home/eecms/tut_ws/build/robot_motion_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eecms/tut_ws/build/robot_motion_controller -- -j6 -l6
+[11.822s] Invoking command in '/home/eecms/tut_ws/build/robot_motion_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eecms/tut_ws/build/robot_motion_controller
+[11.830s] -- Install configuration: ""
+[11.831s] -- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/lib/robot_motion_controller/person_follower
+[11.831s] -- Installing: /home/eecms/tut_ws/install/robot_motion_controller/lib/robot_motion_controller/wall_follower
+[11.834s] -- Set runtime path of "/home/eecms/tut_ws/install/robot_motion_controller/lib/robot_motion_controller/wall_follower" to ""
+[11.834s] -- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/lib/robot_motion_controller/person_follower
+[11.834s] -- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/ament_index/resource_index/package_run_dependencies/robot_motion_controller
+[11.834s] -- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/ament_index/resource_index/parent_prefix_path/robot_motion_controller
+[11.834s] -- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/environment/ament_prefix_path.sh
+[11.834s] -- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/environment/ament_prefix_path.dsv
+[11.834s] -- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/environment/path.sh
+[11.835s] -- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/environment/path.dsv
+[11.835s] -- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/local_setup.bash
+[11.835s] -- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/local_setup.sh
+[11.835s] -- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/local_setup.zsh
+[11.837s] -- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/local_setup.dsv
+[11.837s] -- Installing: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/package.dsv
+[11.837s] -- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/ament_index/resource_index/packages/robot_motion_controller
+[11.837s] -- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/cmake/robot_motion_controllerConfig.cmake
+[11.837s] -- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/cmake/robot_motion_controllerConfig-version.cmake
+[11.837s] -- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/package.xml
+[11.841s] Invoked command in '/home/eecms/tut_ws/build/robot_motion_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eecms/tut_ws/build/robot_motion_controller

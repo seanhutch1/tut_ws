@@ -48,6 +48,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/eecms/tut_ws/src/diff_drive_robot_gz_sim/config"
     "/home/eecms/tut_ws/src/diff_drive_robot_gz_sim/urdf"
     "/home/eecms/tut_ws/src/diff_drive_robot_gz_sim/rviz"
+    "/home/eecms/tut_ws/src/diff_drive_robot_gz_sim/world"
+    "/home/eecms/tut_ws/src/diff_drive_robot_gz_sim/map"
     )
 endif()
 

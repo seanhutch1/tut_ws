@@ -74,10 +74,6 @@
         </collision>
         <xacro:box_inertia m="15.0" w="${base_width}" d="${base_length}" h="${base_height}"/>
     </link>
-    <gazebo reference="base_link">
-        <material>Gazebo/Red</material>
-    </gazebo>
-
 
     <joint name="base_joint" type="fixed">
         <parent link="base_footprint"/>
@@ -126,7 +122,6 @@
             <kd>100.0</kd>
             <minDepth>0.0001</minDepth>
             <maxVel>1.0</maxVel>
-            <material>Gazebo/DarkGrey</material>
 		</gazebo>
 
         <ros2_control name="${prefix}_link_controller" type="system">
@@ -173,7 +168,6 @@
     <gazebo reference="front_caster">
 		<mu1>0.01</mu1>
 		<mu2>0.01</mu2>
-		<material>Gazebo/White</material>
 	</gazebo>
 
     <joint name="caster_joint" type="fixed">

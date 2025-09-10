@@ -37,7 +37,7 @@ def generate_launch_description():
 
     ignition_gazebo = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([os.path.join(pkg_ros_gz_sim, 'launch', 'gz_sim.launch.py')]),
-        launch_arguments=[('gz_args', [LaunchConfiguration('world'), '.sdf', ' -r', ' -v 4'])]
+        launch_arguments=[('gz_args', [LaunchConfiguration('world'), '.sdf', ' -r',' -v 4'])]
     )
 
     rviz_config_file = os.path.join(pkg_diff_drive_robot_gz_sim, 'rviz', 'view_robot_sensor.rviz')

@@ -1,0 +1,202 @@
+[0.000000] (-) TimerEvent: {}
+[0.001127] (diff_drive_robot_gz_sim) JobQueued: {'identifier': 'diff_drive_robot_gz_sim', 'dependencies': OrderedDict()}
+[0.001177] (robot_motion_controller) JobQueued: {'identifier': 'robot_motion_controller', 'dependencies': OrderedDict()}
+[0.001194] (diff_drive_robot_gz_sim) JobStarted: {'identifier': 'diff_drive_robot_gz_sim'}
+[0.021631] (robot_motion_controller) JobStarted: {'identifier': 'robot_motion_controller'}
+[0.029317] (diff_drive_robot_gz_sim) JobProgress: {'identifier': 'diff_drive_robot_gz_sim', 'progress': 'cmake'}
+[0.038017] (diff_drive_robot_gz_sim) JobProgress: {'identifier': 'diff_drive_robot_gz_sim', 'progress': 'build'}
+[0.038179] (diff_drive_robot_gz_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eecms/tut_ws/build/diff_drive_robot_gz_sim', '--', '-j6', '-l6'], 'cwd': '/home/eecms/tut_ws/build/diff_drive_robot_gz_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'eecms'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/eecms'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/'), ('TERM_PROGRAM_VERSION', '1.102.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '173277'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '173638'), ('BUNDLED_DEBUGPY_PATH', '/home/eecms/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus,guid=a3398a49737c12cbfe046f9668c1100a'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '177691'), ('COLCON_PREFIX_PATH', '/home/eecms/tut_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'eecms'), ('JOURNAL_STREAM', '8:1738709'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/eecms/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/V-2204-HPLC-04:@/tmp/.ICE-unix/173638,unix/V-2204-HPLC-04:/tmp/.ICE-unix/173638'), ('INVOCATION_ID', '4e3dcb6beefa4360ae181c50b3ed84ed'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':100'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/eecms/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-1be7d385d0c46318.txt'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1003/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1003/vscode-git-529cfeb203.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eecms/tut_ws/install/robot_motion_controller:/home/eecms/tut_ws/install/diff_drive_robot_gz_sim:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1003/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eecms/tut_ws/build/diff_drive_robot_gz_sim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1003/bus,guid=a3398a49737c12cbfe046f9668c1100a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/eecms/tut_ws/install/robot_motion_controller:/home/eecms/tut_ws/install/diff_drive_robot_gz_sim:/opt/ros/humble')]), 'shell': False}
+[0.040779] (robot_motion_controller) JobProgress: {'identifier': 'robot_motion_controller', 'progress': 'cmake'}
+[0.045022] (robot_motion_controller) JobProgress: {'identifier': 'robot_motion_controller', 'progress': 'build'}
+[0.045077] (robot_motion_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eecms/tut_ws/build/robot_motion_controller', '--', '-j6', '-l6'], 'cwd': '/home/eecms/tut_ws/build/robot_motion_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'eecms'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/eecms'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/'), ('TERM_PROGRAM_VERSION', '1.102.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '173277'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '173638'), ('BUNDLED_DEBUGPY_PATH', '/home/eecms/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus,guid=a3398a49737c12cbfe046f9668c1100a'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '177691'), ('COLCON_PREFIX_PATH', '/home/eecms/tut_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'eecms'), ('JOURNAL_STREAM', '8:1738709'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/eecms/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/V-2204-HPLC-04:@/tmp/.ICE-unix/173638,unix/V-2204-HPLC-04:/tmp/.ICE-unix/173638'), ('INVOCATION_ID', '4e3dcb6beefa4360ae181c50b3ed84ed'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':100'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/eecms/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-1be7d385d0c46318.txt'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1003/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1003/vscode-git-529cfeb203.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eecms/tut_ws/install/robot_motion_controller:/home/eecms/tut_ws/install/diff_drive_robot_gz_sim:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1003/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eecms/tut_ws/build/robot_motion_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1003/bus,guid=a3398a49737c12cbfe046f9668c1100a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/eecms/tut_ws/install/robot_motion_controller:/home/eecms/tut_ws/install/diff_drive_robot_gz_sim:/opt/ros/humble')]), 'shell': False}
+[0.106419] (-) TimerEvent: {}
+[0.145170] (diff_drive_robot_gz_sim) CommandEnded: {'returncode': 0}
+[0.151535] (diff_drive_robot_gz_sim) JobProgress: {'identifier': 'diff_drive_robot_gz_sim', 'progress': 'install'}
+[0.160862] (diff_drive_robot_gz_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/eecms/tut_ws/build/diff_drive_robot_gz_sim'], 'cwd': '/home/eecms/tut_ws/build/diff_drive_robot_gz_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'eecms'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/eecms'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/'), ('TERM_PROGRAM_VERSION', '1.102.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '173277'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '173638'), ('BUNDLED_DEBUGPY_PATH', '/home/eecms/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus,guid=a3398a49737c12cbfe046f9668c1100a'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '177691'), ('COLCON_PREFIX_PATH', '/home/eecms/tut_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'eecms'), ('JOURNAL_STREAM', '8:1738709'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/eecms/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/V-2204-HPLC-04:@/tmp/.ICE-unix/173638,unix/V-2204-HPLC-04:/tmp/.ICE-unix/173638'), ('INVOCATION_ID', '4e3dcb6beefa4360ae181c50b3ed84ed'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':100'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/eecms/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-1be7d385d0c46318.txt'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1003/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1003/vscode-git-529cfeb203.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eecms/tut_ws/install/robot_motion_controller:/home/eecms/tut_ws/install/diff_drive_robot_gz_sim:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1003/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eecms/tut_ws/build/diff_drive_robot_gz_sim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1003/bus,guid=a3398a49737c12cbfe046f9668c1100a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/eecms/tut_ws/install/robot_motion_controller:/home/eecms/tut_ws/install/diff_drive_robot_gz_sim:/opt/ros/humble')]), 'shell': False}
+[0.172649] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.172825] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//launch\n'}
+[0.172887] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//launch/MRobot_sensor.launch.py\n'}
+[0.172943] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//launch/ros_gz_bridge.launch.py\n'}
+[0.172992] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//launch/MRobot_base.launch.py\n'}
+[0.173041] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//launch/MRobot_control.launch.py\n'}
+[0.173088] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//launch/ICTE4001_MRobot.launch.py\n'}
+[0.173134] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//config\n'}
+[0.173178] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//config/mobile_base_control.yaml\n'}
+[0.173222] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//urdf\n'}
+[0.173267] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//urdf/ICTE4001_MRobot_sensor.urdf.xacro\n'}
+[0.173311] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//urdf/ICTE4001_MRobot_base.urdf.xacro\n'}
+[0.173369] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//urdf/ICTE4001_MRobot_control.urdf.xacro\n'}
+[0.173414] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//rviz\n'}
+[0.173458] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//rviz/view_robot.rviz\n'}
+[0.173500] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//rviz/view_robot_mapping_and_navigation.rviz\n'}
+[0.173544] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//rviz/view_robot_sensor.rviz\n'}
+[0.173591] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//world\n'}
+[0.179440] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//world/office_world.sdf\n'}
+[0.179571] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//world/office_wall\n'}
+[0.179623] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//world/office_wall/model.sdf\n'}
+[0.179670] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//world/office_wall/model.config\n'}
+[0.179723] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//map\n'}
+[0.179768] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//map/office_ICTE4001_sim.yaml\n'}
+[0.179812] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//map/office_ICTE4001_sim.pgm\n'}
+[0.179857] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/ament_index/resource_index/package_run_dependencies/diff_drive_robot_gz_sim\n'}
+[0.183277] (robot_motion_controller) StdoutLine: {'line': b'[ 50%] Built target person_follower\n'}
+[0.185844] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/ament_index/resource_index/parent_prefix_path/diff_drive_robot_gz_sim\n'}
+[0.186335] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim/environment/ament_prefix_path.sh\n'}
+[0.186416] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim/environment/ament_prefix_path.dsv\n'}
+[0.186464] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim/environment/path.sh\n'}
+[0.186511] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim/environment/path.dsv\n'}
+[0.186555] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim/local_setup.bash\n'}
+[0.186600] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim/local_setup.sh\n'}
+[0.186644] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim/local_setup.zsh\n'}
+[0.186688] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim/local_setup.dsv\n'}
+[0.186784] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Installing: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim/package.dsv\n'}
+[0.186830] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/ament_index/resource_index/packages/diff_drive_robot_gz_sim\n'}
+[0.186880] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim/cmake/diff_drive_robot_gz_simConfig.cmake\n'}
+[0.186931] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim/cmake/diff_drive_robot_gz_simConfig-version.cmake\n'}
+[0.186980] (diff_drive_robot_gz_sim) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim/package.xml\n'}
+[0.187696] (diff_drive_robot_gz_sim) CommandEnded: {'returncode': 0}
+[0.206502] (-) TimerEvent: {}
+[0.230321] (robot_motion_controller) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/wall_follower.dir/src/wall_follower.cpp.o\x1b[0m\n'}
+[0.249039] (diff_drive_robot_gz_sim) JobEnded: {'identifier': 'diff_drive_robot_gz_sim', 'rc': 0}
+[0.306620] (-) TimerEvent: {}
+[0.406928] (-) TimerEvent: {}
+[0.507241] (-) TimerEvent: {}
+[0.607579] (-) TimerEvent: {}
+[0.707892] (-) TimerEvent: {}
+[0.808306] (-) TimerEvent: {}
+[0.908735] (-) TimerEvent: {}
+[1.009187] (-) TimerEvent: {}
+[1.109717] (-) TimerEvent: {}
+[1.210391] (-) TimerEvent: {}
+[1.310792] (-) TimerEvent: {}
+[1.411617] (-) TimerEvent: {}
+[1.511938] (-) TimerEvent: {}
+[1.613063] (-) TimerEvent: {}
+[1.713399] (-) TimerEvent: {}
+[1.813726] (-) TimerEvent: {}
+[1.914040] (-) TimerEvent: {}
+[2.014744] (-) TimerEvent: {}
+[2.116153] (-) TimerEvent: {}
+[2.216877] (-) TimerEvent: {}
+[2.317192] (-) TimerEvent: {}
+[2.417524] (-) TimerEvent: {}
+[2.519060] (-) TimerEvent: {}
+[2.620449] (-) TimerEvent: {}
+[2.720796] (-) TimerEvent: {}
+[2.821150] (-) TimerEvent: {}
+[2.921841] (-) TimerEvent: {}
+[3.022562] (-) TimerEvent: {}
+[3.123972] (-) TimerEvent: {}
+[3.224290] (-) TimerEvent: {}
+[3.325439] (-) TimerEvent: {}
+[3.425762] (-) TimerEvent: {}
+[3.526182] (-) TimerEvent: {}
+[3.627170] (-) TimerEvent: {}
+[3.727902] (-) TimerEvent: {}
+[3.828321] (-) TimerEvent: {}
+[3.928953] (-) TimerEvent: {}
+[4.029597] (-) TimerEvent: {}
+[4.130753] (-) TimerEvent: {}
+[4.231422] (-) TimerEvent: {}
+[4.332119] (-) TimerEvent: {}
+[4.432973] (-) TimerEvent: {}
+[4.533749] (-) TimerEvent: {}
+[4.634413] (-) TimerEvent: {}
+[4.734990] (-) TimerEvent: {}
+[4.836020] (-) TimerEvent: {}
+[4.936696] (-) TimerEvent: {}
+[5.037481] (-) TimerEvent: {}
+[5.139847] (-) TimerEvent: {}
+[5.240212] (-) TimerEvent: {}
+[5.341412] (-) TimerEvent: {}
+[5.441833] (-) TimerEvent: {}
+[5.542153] (-) TimerEvent: {}
+[5.642610] (-) TimerEvent: {}
+[5.743236] (-) TimerEvent: {}
+[5.844018] (-) TimerEvent: {}
+[5.944723] (-) TimerEvent: {}
+[6.045385] (-) TimerEvent: {}
+[6.146053] (-) TimerEvent: {}
+[6.248188] (-) TimerEvent: {}
+[6.348555] (-) TimerEvent: {}
+[6.449229] (-) TimerEvent: {}
+[6.549570] (-) TimerEvent: {}
+[6.650420] (-) TimerEvent: {}
+[6.750733] (-) TimerEvent: {}
+[6.851241] (-) TimerEvent: {}
+[6.952499] (-) TimerEvent: {}
+[7.052811] (-) TimerEvent: {}
+[7.153227] (-) TimerEvent: {}
+[7.253625] (-) TimerEvent: {}
+[7.354589] (-) TimerEvent: {}
+[7.454914] (-) TimerEvent: {}
+[7.556632] (-) TimerEvent: {}
+[7.657453] (-) TimerEvent: {}
+[7.758083] (-) TimerEvent: {}
+[7.973992] (-) TimerEvent: {}
+[8.074308] (-) TimerEvent: {}
+[8.175031] (-) TimerEvent: {}
+[8.275707] (-) TimerEvent: {}
+[8.377644] (-) TimerEvent: {}
+[8.477962] (-) TimerEvent: {}
+[8.578271] (-) TimerEvent: {}
+[8.679418] (-) TimerEvent: {}
+[8.780119] (-) TimerEvent: {}
+[8.880559] (-) TimerEvent: {}
+[8.980876] (-) TimerEvent: {}
+[9.082413] (-) TimerEvent: {}
+[9.183049] (-) TimerEvent: {}
+[9.283718] (-) TimerEvent: {}
+[9.384625] (-) TimerEvent: {}
+[9.485043] (-) TimerEvent: {}
+[9.585766] (-) TimerEvent: {}
+[9.686066] (-) TimerEvent: {}
+[9.786395] (-) TimerEvent: {}
+[9.887970] (-) TimerEvent: {}
+[9.988269] (-) TimerEvent: {}
+[10.088778] (-) TimerEvent: {}
+[10.190406] (-) TimerEvent: {}
+[10.290709] (-) TimerEvent: {}
+[10.391022] (-) TimerEvent: {}
+[10.491627] (-) TimerEvent: {}
+[10.592572] (-) TimerEvent: {}
+[10.693858] (-) TimerEvent: {}
+[10.796047] (-) TimerEvent: {}
+[10.896362] (-) TimerEvent: {}
+[10.997414] (-) TimerEvent: {}
+[11.098150] (-) TimerEvent: {}
+[11.199163] (-) TimerEvent: {}
+[11.259452] (robot_motion_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable wall_follower\x1b[0m\n'}
+[11.299278] (-) TimerEvent: {}
+[11.400133] (-) TimerEvent: {}
+[11.500620] (-) TimerEvent: {}
+[11.603418] (-) TimerEvent: {}
+[11.703753] (-) TimerEvent: {}
+[11.804553] (-) TimerEvent: {}
+[11.823824] (robot_motion_controller) StdoutLine: {'line': b'[100%] Built target wall_follower\n'}
+[11.836024] (robot_motion_controller) CommandEnded: {'returncode': 0}
+[11.843559] (robot_motion_controller) JobProgress: {'identifier': 'robot_motion_controller', 'progress': 'install'}
+[11.843621] (robot_motion_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/eecms/tut_ws/build/robot_motion_controller'], 'cwd': '/home/eecms/tut_ws/build/robot_motion_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'eecms'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/eecms'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/'), ('TERM_PROGRAM_VERSION', '1.102.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '173277'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '173638'), ('BUNDLED_DEBUGPY_PATH', '/home/eecms/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus,guid=a3398a49737c12cbfe046f9668c1100a'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '177691'), ('COLCON_PREFIX_PATH', '/home/eecms/tut_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'eecms'), ('JOURNAL_STREAM', '8:1738709'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/eecms/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/V-2204-HPLC-04:@/tmp/.ICE-unix/173638,unix/V-2204-HPLC-04:/tmp/.ICE-unix/173638'), ('INVOCATION_ID', '4e3dcb6beefa4360ae181c50b3ed84ed'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':100'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/eecms/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-1be7d385d0c46318.txt'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1003/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1003/vscode-git-529cfeb203.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eecms/tut_ws/install/robot_motion_controller:/home/eecms/tut_ws/install/diff_drive_robot_gz_sim:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1003/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eecms/tut_ws/build/robot_motion_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1003/bus,guid=a3398a49737c12cbfe046f9668c1100a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/eecms/tut_ws/install/robot_motion_controller:/home/eecms/tut_ws/install/diff_drive_robot_gz_sim:/opt/ros/humble')]), 'shell': False}
+[11.851433] (robot_motion_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.852171] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/lib/robot_motion_controller/person_follower\n'}
+[11.852253] (robot_motion_controller) StdoutLine: {'line': b'-- Installing: /home/eecms/tut_ws/install/robot_motion_controller/lib/robot_motion_controller/wall_follower\n'}
+[11.855414] (robot_motion_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/eecms/tut_ws/install/robot_motion_controller/lib/robot_motion_controller/wall_follower" to ""\n'}
+[11.855559] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/lib/robot_motion_controller/person_follower\n'}
+[11.855901] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/ament_index/resource_index/package_run_dependencies/robot_motion_controller\n'}
+[11.855957] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/ament_index/resource_index/parent_prefix_path/robot_motion_controller\n'}
+[11.856011] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/environment/ament_prefix_path.sh\n'}
+[11.856054] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/environment/ament_prefix_path.dsv\n'}
+[11.856098] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/environment/path.sh\n'}
+[11.856142] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/environment/path.dsv\n'}
+[11.856183] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/local_setup.bash\n'}
+[11.856225] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/local_setup.sh\n'}
+[11.856268] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/local_setup.zsh\n'}
+[11.858748] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/local_setup.dsv\n'}
+[11.858869] (robot_motion_controller) StdoutLine: {'line': b'-- Installing: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/package.dsv\n'}
+[11.858922] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/ament_index/resource_index/packages/robot_motion_controller\n'}
+[11.858969] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/cmake/robot_motion_controllerConfig.cmake\n'}
+[11.859013] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/cmake/robot_motion_controllerConfig-version.cmake\n'}
+[11.859057] (robot_motion_controller) StdoutLine: {'line': b'-- Up-to-date: /home/eecms/tut_ws/install/robot_motion_controller/share/robot_motion_controller/package.xml\n'}
+[11.862413] (robot_motion_controller) CommandEnded: {'returncode': 0}
+[11.884717] (robot_motion_controller) JobEnded: {'identifier': 'robot_motion_controller', 'rc': 0}
+[11.885532] (-) EventReactorShutdown: {}

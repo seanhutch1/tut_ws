@@ -42,7 +42,7 @@
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 34,
+				"line" : 36,
 				"parent" : 0
 			},
 			{
@@ -232,7 +232,9 @@
 				"launch",
 				"config",
 				"urdf",
-				"rviz"
+				"rviz",
+				"world",
+				"map"
 			],
 			"type" : "directory"
 		},
