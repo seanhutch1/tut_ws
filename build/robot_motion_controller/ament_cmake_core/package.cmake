@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "robot_motion_controller")
 set(robot_motion_controller_VERSION "0.0.0")
-set(robot_motion_controller_MAINTAINER "eecms <eecms@todo.todo>")
+set(robot_motion_controller_MAINTAINER "robotai <robotai@todo.todo>")
 set(robot_motion_controller_BUILD_DEPENDS "rclcpp" "geometry_msgs" "nav_msgs" "sensor_msgs")
 set(robot_motion_controller_BUILDTOOL_DEPENDS "ament_cmake")
 set(robot_motion_controller_BUILD_EXPORT_DEPENDS "rclcpp" "geometry_msgs" "nav_msgs" "sensor_msgs")

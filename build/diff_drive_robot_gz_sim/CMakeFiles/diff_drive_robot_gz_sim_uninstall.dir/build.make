@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eecms/tut_ws/src/diff_drive_robot_gz_sim
+CMAKE_SOURCE_DIR = /home/robotai/tut_ws/src/diff_drive_robot_gz_sim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eecms/tut_ws/build/diff_drive_robot_gz_sim
+CMAKE_BINARY_DIR = /home/robotai/tut_ws/build/diff_drive_robot_gz_sim
 
 # Utility rule file for diff_drive_robot_gz_sim_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/diff_drive_robot_gz_sim_uninstall.dir/compiler_depend.make
 include CMakeFiles/diff_drive_robot_gz_sim_uninstall.dir/progress.make
 
 CMakeFiles/diff_drive_robot_gz_sim_uninstall:
-	/usr/bin/cmake -P /home/eecms/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/robotai/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 diff_drive_robot_gz_sim_uninstall: CMakeFiles/diff_drive_robot_gz_sim_uninstall
 diff_drive_robot_gz_sim_uninstall: CMakeFiles/diff_drive_robot_gz_sim_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/diff_drive_robot_gz_sim_uninstall.dir/clean:
 .PHONY : CMakeFiles/diff_drive_robot_gz_sim_uninstall.dir/clean
 
 CMakeFiles/diff_drive_robot_gz_sim_uninstall.dir/depend:
-	cd /home/eecms/tut_ws/build/diff_drive_robot_gz_sim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eecms/tut_ws/src/diff_drive_robot_gz_sim /home/eecms/tut_ws/src/diff_drive_robot_gz_sim /home/eecms/tut_ws/build/diff_drive_robot_gz_sim /home/eecms/tut_ws/build/diff_drive_robot_gz_sim /home/eecms/tut_ws/build/diff_drive_robot_gz_sim/CMakeFiles/diff_drive_robot_gz_sim_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robotai/tut_ws/build/diff_drive_robot_gz_sim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotai/tut_ws/src/diff_drive_robot_gz_sim /home/robotai/tut_ws/src/diff_drive_robot_gz_sim /home/robotai/tut_ws/build/diff_drive_robot_gz_sim /home/robotai/tut_ws/build/diff_drive_robot_gz_sim /home/robotai/tut_ws/build/diff_drive_robot_gz_sim/CMakeFiles/diff_drive_robot_gz_sim_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/diff_drive_robot_gz_sim_uninstall.dir/depend
 

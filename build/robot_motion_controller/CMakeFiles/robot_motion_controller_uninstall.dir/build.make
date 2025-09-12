@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eecms/tut_ws/src/robot_motion_controller
+CMAKE_SOURCE_DIR = /home/robotai/tut_ws/src/robot_motion_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eecms/tut_ws/build/robot_motion_controller
+CMAKE_BINARY_DIR = /home/robotai/tut_ws/build/robot_motion_controller
 
 # Utility rule file for robot_motion_controller_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/robot_motion_controller_uninstall.dir/compiler_depend.make
 include CMakeFiles/robot_motion_controller_uninstall.dir/progress.make
 
 CMakeFiles/robot_motion_controller_uninstall:
-	/usr/bin/cmake -P /home/eecms/tut_ws/build/robot_motion_controller/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/robotai/tut_ws/build/robot_motion_controller/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 robot_motion_controller_uninstall: CMakeFiles/robot_motion_controller_uninstall
 robot_motion_controller_uninstall: CMakeFiles/robot_motion_controller_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/robot_motion_controller_uninstall.dir/clean:
 .PHONY : CMakeFiles/robot_motion_controller_uninstall.dir/clean
 
 CMakeFiles/robot_motion_controller_uninstall.dir/depend:
-	cd /home/eecms/tut_ws/build/robot_motion_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eecms/tut_ws/src/robot_motion_controller /home/eecms/tut_ws/src/robot_motion_controller /home/eecms/tut_ws/build/robot_motion_controller /home/eecms/tut_ws/build/robot_motion_controller /home/eecms/tut_ws/build/robot_motion_controller/CMakeFiles/robot_motion_controller_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robotai/tut_ws/build/robot_motion_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotai/tut_ws/src/robot_motion_controller /home/robotai/tut_ws/src/robot_motion_controller /home/robotai/tut_ws/build/robot_motion_controller /home/robotai/tut_ws/build/robot_motion_controller /home/robotai/tut_ws/build/robot_motion_controller/CMakeFiles/robot_motion_controller_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/robot_motion_controller_uninstall.dir/depend
 

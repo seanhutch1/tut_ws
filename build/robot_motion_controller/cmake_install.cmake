@@ -1,8 +1,8 @@
-# Install script for directory: /home/eecms/tut_ws/src/robot_motion_controller
+# Install script for directory: /home/robotai/tut_ws/src/robot_motion_controller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/eecms/tut_ws/install/robot_motion_controller")
+  set(CMAKE_INSTALL_PREFIX "/home/robotai/tut_ws/install/robot_motion_controller")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_motion_controller/person_follower"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_motion_controller" TYPE EXECUTABLE FILES "/home/eecms/tut_ws/build/robot_motion_controller/person_follower")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_motion_controller" TYPE EXECUTABLE FILES "/home/robotai/tut_ws/build/robot_motion_controller/person_follower")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_motion_controller/person_follower" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_motion_controller/person_follower")
     file(RPATH_CHANGE
@@ -69,7 +69,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_motion_controller/wall_follower"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_motion_controller" TYPE EXECUTABLE FILES "/home/eecms/tut_ws/build/robot_motion_controller/wall_follower")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_motion_controller" TYPE EXECUTABLE FILES "/home/robotai/tut_ws/build/robot_motion_controller/wall_follower")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_motion_controller/wall_follower" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_motion_controller/wall_follower")
     file(RPATH_CHANGE
@@ -83,31 +83,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_motion_controller/person_follower" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_motion_controller/person_follower")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_motion_controller/person_follower"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_motion_controller" TYPE EXECUTABLE FILES "/home/eecms/tut_ws/build/robot_motion_controller/person_follower")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_motion_controller/person_follower" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_motion_controller/person_follower")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_motion_controller/person_follower"
-         OLD_RPATH "/opt/ros/humble/lib:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_motion_controller/person_follower")
-    endif()
-  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/robotai/tut_ws/build/robot_motion_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_motion_controller")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/eecms/tut_ws/build/robot_motion_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_motion_controller")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/eecms/tut_ws/build/robot_motion_controller/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robot_motion_controller")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/robotai/tut_ws/build/robot_motion_controller/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robot_motion_controller")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -115,7 +95,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_motion_controller/environment" TYPE FILE FILES "/home/eecms/tut_ws/build/robot_motion_controller/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_motion_controller/environment" TYPE FILE FILES "/home/robotai/tut_ws/build/robot_motion_controller/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -123,42 +103,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_motion_controller/environment" TYPE FILE FILES "/home/eecms/tut_ws/build/robot_motion_controller/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_motion_controller/environment" TYPE FILE FILES "/home/robotai/tut_ws/build/robot_motion_controller/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_motion_controller" TYPE FILE FILES "/home/eecms/tut_ws/build/robot_motion_controller/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_motion_controller" TYPE FILE FILES "/home/robotai/tut_ws/build/robot_motion_controller/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_motion_controller" TYPE FILE FILES "/home/eecms/tut_ws/build/robot_motion_controller/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_motion_controller" TYPE FILE FILES "/home/robotai/tut_ws/build/robot_motion_controller/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_motion_controller" TYPE FILE FILES "/home/eecms/tut_ws/build/robot_motion_controller/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_motion_controller" TYPE FILE FILES "/home/robotai/tut_ws/build/robot_motion_controller/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_motion_controller" TYPE FILE FILES "/home/eecms/tut_ws/build/robot_motion_controller/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_motion_controller" TYPE FILE FILES "/home/robotai/tut_ws/build/robot_motion_controller/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_motion_controller" TYPE FILE FILES "/home/eecms/tut_ws/build/robot_motion_controller/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_motion_controller" TYPE FILE FILES "/home/robotai/tut_ws/build/robot_motion_controller/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/eecms/tut_ws/build/robot_motion_controller/ament_cmake_index/share/ament_index/resource_index/packages/robot_motion_controller")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/robotai/tut_ws/build/robot_motion_controller/ament_cmake_index/share/ament_index/resource_index/packages/robot_motion_controller")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_motion_controller/cmake" TYPE FILE FILES
-    "/home/eecms/tut_ws/build/robot_motion_controller/ament_cmake_core/robot_motion_controllerConfig.cmake"
-    "/home/eecms/tut_ws/build/robot_motion_controller/ament_cmake_core/robot_motion_controllerConfig-version.cmake"
+    "/home/robotai/tut_ws/build/robot_motion_controller/ament_cmake_core/robot_motion_controllerConfig.cmake"
+    "/home/robotai/tut_ws/build/robot_motion_controller/ament_cmake_core/robot_motion_controllerConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_motion_controller" TYPE FILE FILES "/home/eecms/tut_ws/src/robot_motion_controller/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_motion_controller" TYPE FILE FILES "/home/robotai/tut_ws/src/robot_motion_controller/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -169,5 +149,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/eecms/tut_ws/build/robot_motion_controller/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/robotai/tut_ws/build/robot_motion_controller/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

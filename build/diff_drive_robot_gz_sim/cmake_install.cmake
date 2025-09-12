@@ -1,8 +1,8 @@
-# Install script for directory: /home/eecms/tut_ws/src/diff_drive_robot_gz_sim
+# Install script for directory: /home/robotai/tut_ws/src/diff_drive_robot_gz_sim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/eecms/tut_ws/install/diff_drive_robot_gz_sim")
+  set(CMAKE_INSTALL_PREFIX "/home/robotai/tut_ws/install/diff_drive_robot_gz_sim")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,21 +44,21 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/diff_drive_robot_gz_sim/" TYPE DIRECTORY FILES
-    "/home/eecms/tut_ws/src/diff_drive_robot_gz_sim/launch"
-    "/home/eecms/tut_ws/src/diff_drive_robot_gz_sim/config"
-    "/home/eecms/tut_ws/src/diff_drive_robot_gz_sim/urdf"
-    "/home/eecms/tut_ws/src/diff_drive_robot_gz_sim/rviz"
-    "/home/eecms/tut_ws/src/diff_drive_robot_gz_sim/world"
-    "/home/eecms/tut_ws/src/diff_drive_robot_gz_sim/map"
+    "/home/robotai/tut_ws/src/diff_drive_robot_gz_sim/launch"
+    "/home/robotai/tut_ws/src/diff_drive_robot_gz_sim/config"
+    "/home/robotai/tut_ws/src/diff_drive_robot_gz_sim/urdf"
+    "/home/robotai/tut_ws/src/diff_drive_robot_gz_sim/rviz"
+    "/home/robotai/tut_ws/src/diff_drive_robot_gz_sim/world"
+    "/home/robotai/tut_ws/src/diff_drive_robot_gz_sim/map"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/eecms/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/diff_drive_robot_gz_sim")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/robotai/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/diff_drive_robot_gz_sim")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/eecms/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/diff_drive_robot_gz_sim")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/robotai/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/diff_drive_robot_gz_sim")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -66,7 +66,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/diff_drive_robot_gz_sim/environment" TYPE FILE FILES "/home/eecms/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/diff_drive_robot_gz_sim/environment" TYPE FILE FILES "/home/robotai/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -74,42 +74,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/diff_drive_robot_gz_sim/environment" TYPE FILE FILES "/home/eecms/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/diff_drive_robot_gz_sim/environment" TYPE FILE FILES "/home/robotai/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/diff_drive_robot_gz_sim" TYPE FILE FILES "/home/eecms/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/diff_drive_robot_gz_sim" TYPE FILE FILES "/home/robotai/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/diff_drive_robot_gz_sim" TYPE FILE FILES "/home/eecms/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/diff_drive_robot_gz_sim" TYPE FILE FILES "/home/robotai/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/diff_drive_robot_gz_sim" TYPE FILE FILES "/home/eecms/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/diff_drive_robot_gz_sim" TYPE FILE FILES "/home/robotai/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/diff_drive_robot_gz_sim" TYPE FILE FILES "/home/eecms/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/diff_drive_robot_gz_sim" TYPE FILE FILES "/home/robotai/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/diff_drive_robot_gz_sim" TYPE FILE FILES "/home/eecms/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/diff_drive_robot_gz_sim" TYPE FILE FILES "/home/robotai/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/eecms/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_index/share/ament_index/resource_index/packages/diff_drive_robot_gz_sim")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/robotai/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_index/share/ament_index/resource_index/packages/diff_drive_robot_gz_sim")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/diff_drive_robot_gz_sim/cmake" TYPE FILE FILES
-    "/home/eecms/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_core/diff_drive_robot_gz_simConfig.cmake"
-    "/home/eecms/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_core/diff_drive_robot_gz_simConfig-version.cmake"
+    "/home/robotai/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_core/diff_drive_robot_gz_simConfig.cmake"
+    "/home/robotai/tut_ws/build/diff_drive_robot_gz_sim/ament_cmake_core/diff_drive_robot_gz_simConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/diff_drive_robot_gz_sim" TYPE FILE FILES "/home/eecms/tut_ws/src/diff_drive_robot_gz_sim/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/diff_drive_robot_gz_sim" TYPE FILE FILES "/home/robotai/tut_ws/src/diff_drive_robot_gz_sim/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -120,5 +120,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/eecms/tut_ws/build/diff_drive_robot_gz_sim/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/robotai/tut_ws/build/diff_drive_robot_gz_sim/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
