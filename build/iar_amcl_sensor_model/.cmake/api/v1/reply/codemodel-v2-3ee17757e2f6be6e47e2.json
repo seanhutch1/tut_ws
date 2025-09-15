@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a37d1f34c5b876b3314e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "iar_amcl_sensor_model",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "iar_amcl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-iar_amcl-97cebc419bfd2dd69cf5.json",
+					"name" : "iar_amcl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "iar_amcl_sensor_model_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-iar_amcl_sensor_model_uninstall-7ae49e44e8a7769bf7ad.json",
+					"name" : "iar_amcl_sensor_model_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e40392431650a5a39280.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robotai/tut_ws/build/iar_amcl_sensor_model",
+		"source" : "/home/robotai/tut_ws/src/iar_amcl_sensor_model"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

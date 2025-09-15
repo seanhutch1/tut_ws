@@ -1,0 +1,8 @@
+source;share/iar_amcl_sensor_model/hook/cmake_prefix_path.ps1
+source;share/iar_amcl_sensor_model/hook/cmake_prefix_path.dsv
+source;share/iar_amcl_sensor_model/hook/cmake_prefix_path.sh
+source;share/iar_amcl_sensor_model/local_setup.bash
+source;share/iar_amcl_sensor_model/local_setup.dsv
+source;share/iar_amcl_sensor_model/local_setup.ps1
+source;share/iar_amcl_sensor_model/local_setup.sh
+source;share/iar_amcl_sensor_model/local_setup.zsh
