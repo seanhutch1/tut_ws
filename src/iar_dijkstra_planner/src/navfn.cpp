@@ -195,6 +195,7 @@ namespace iar_dijkstra_planner
         int cycle = 0;  // which cycle we're on
 
         int goalCell = goal_[1] * nx_ + goal_[0];
+        
         bool propSuccess = false;
         for(; cycle < cycles; cycle++)
         {
