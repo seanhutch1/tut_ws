@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b1352559ddd5828eb1c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "iar_dijkstra_planner",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "iar_dijkstra_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-iar_dijkstra_planner-5f40d43d75728cb7d645.json",
+					"name" : "iar_dijkstra_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "iar_dijkstra_planner_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-iar_dijkstra_planner_uninstall-699c8b8a4c63347671cb.json",
+					"name" : "iar_dijkstra_planner_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-80e91fdc9f4a345a66b1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robotai/tut_ws/build/iar_dijkstra_planner",
+		"source" : "/home/robotai/tut_ws/src/iar_dijkstra_planner"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

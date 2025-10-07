@@ -1,0 +1,1 @@
+Invoking command in '/home/robotai/tut_ws/build/robot_motion_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/tut_ws/build/robot_motion_controller -- -j6 -l6

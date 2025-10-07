@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target iar_amcl[0m
+[100%] Built target iar_amcl
+-- Install configuration: ""
+-- Installing: /home/robotai/tut_ws/install/iar_amcl_node/lib/iar_amcl_node/iar_amcl
+-- Set runtime path of "/home/robotai/tut_ws/install/iar_amcl_node/lib/iar_amcl_node/iar_amcl" to ""
+-- Installing: /home/robotai/tut_ws/install/iar_amcl_node/share/iar_amcl_node//launch
+-- Installing: /home/robotai/tut_ws/install/iar_amcl_node/share/iar_amcl_node//launch/localisation_launch.py
+-- Installing: /home/robotai/tut_ws/install/iar_amcl_node/share/iar_amcl_node//config
+-- Installing: /home/robotai/tut_ws/install/iar_amcl_node/share/iar_amcl_node//config/localisation.yaml
+-- Installing: /home/robotai/tut_ws/install/iar_amcl_node/share/iar_amcl_node//map
+-- Installing: /home/robotai/tut_ws/install/iar_amcl_node/share/iar_amcl_node//map/office_ICTE4001_sim.yaml
+-- Installing: /home/robotai/tut_ws/install/iar_amcl_node/share/iar_amcl_node//map/office_ICTE4001_sim.pgm
+-- Installing: /home/robotai/tut_ws/install/iar_amcl_node/share/ament_index/resource_index/package_run_dependencies/iar_amcl_node
+-- Installing: /home/robotai/tut_ws/install/iar_amcl_node/share/ament_index/resource_index/parent_prefix_path/iar_amcl_node
+-- Installing: /home/robotai/tut_ws/install/iar_amcl_node/share/iar_amcl_node/environment/ament_prefix_path.sh
+-- Installing: /home/robotai/tut_ws/install/iar_amcl_node/share/iar_amcl_node/environment/ament_prefix_path.dsv
+-- Installing: /home/robotai/tut_ws/install/iar_amcl_node/share/iar_amcl_node/environment/path.sh
+-- Installing: /home/robotai/tut_ws/install/iar_amcl_node/share/iar_amcl_node/environment/path.dsv
+-- Installing: /home/robotai/tut_ws/install/iar_amcl_node/share/iar_amcl_node/local_setup.bash
+-- Installing: /home/robotai/tut_ws/install/iar_amcl_node/share/iar_amcl_node/local_setup.sh
+-- Installing: /home/robotai/tut_ws/install/iar_amcl_node/share/iar_amcl_node/local_setup.zsh
+-- Installing: /home/robotai/tut_ws/install/iar_amcl_node/share/iar_amcl_node/local_setup.dsv
+-- Installing: /home/robotai/tut_ws/install/iar_amcl_node/share/iar_amcl_node/package.dsv
+-- Installing: /home/robotai/tut_ws/install/iar_amcl_node/share/ament_index/resource_index/packages/iar_amcl_node
+-- Installing: /home/robotai/tut_ws/install/iar_amcl_node/share/iar_amcl_node/cmake/iar_amcl_nodeConfig.cmake
+-- Installing: /home/robotai/tut_ws/install/iar_amcl_node/share/iar_amcl_node/cmake/iar_amcl_nodeConfig-version.cmake
+-- Installing: /home/robotai/tut_ws/install/iar_amcl_node/share/iar_amcl_node/package.xml

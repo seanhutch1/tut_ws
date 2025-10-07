@@ -1,0 +1,1 @@
+Invoking command in '/home/robotai/tut_ws/build/iar_amcl_sensor_model': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/tut_ws/build/iar_amcl_sensor_model -- -j6 -l6

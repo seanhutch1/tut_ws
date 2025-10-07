@@ -1,0 +1,66 @@
+[0.026s] Invoking command in '/home/robotai/tut_ws/build/iar_dijkstra_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotai/tut_ws/src/iar_dijkstra_planner -DCMAKE_INSTALL_PREFIX=/home/robotai/tut_ws/install/iar_dijkstra_planner
+[0.837s] -- The C compiler identification is GNU 12.3.0
+[1.270s] -- The CXX compiler identification is GNU 12.3.0
+[1.298s] -- Detecting C compiler ABI info
+[1.426s] -- Detecting C compiler ABI info - done
+[1.430s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.435s] -- Detecting C compile features
+[1.435s] -- Detecting C compile features - done
+[1.441s] -- Detecting CXX compiler ABI info
+[1.559s] -- Detecting CXX compiler ABI info - done
+[1.567s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.567s] -- Detecting CXX compile features
+[1.568s] -- Detecting CXX compile features - done
+[1.581s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.773s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.858s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.880s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.917s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.922s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.929s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.941s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.953s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.989s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.991s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.088s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.115s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.155s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.165s] -- Looking for pthread.h
+[2.240s] -- Looking for pthread.h - found
+[2.240s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.315s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.316s] -- Found Threads: TRUE  
+[2.363s] -- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.395s] -- Found rclcpp_lifecycle: 16.0.15 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.412s] -- Found nav2_common: 1.1.18 (/opt/ros/humble/share/nav2_common/cmake)
+[2.422s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.501s] -- Found nav2_util: 1.1.18 (/opt/ros/humble/share/nav2_util/cmake)
+[2.631s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.632s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.632s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.678s] -- Found nav2_core: 1.1.18 (/opt/ros/humble/share/nav2_core/cmake)
+[3.144s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.256s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.257s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/robotai/tut_ws/src/iar_dijkstra_planner/include>
+[3.257s] -- Configured cppcheck exclude dirs and/or files: 
+[3.257s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.258s] -- Added test 'lint_cmake' to check CMake code style
+[3.258s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.258s] -- Added test 'uncrustify' to check C / C++ code style
+[3.259s] -- Configured uncrustify additional arguments: 
+[3.259s] -- Added test 'xmllint' to check XML markup files
+[3.276s] -- Configuring done
+[3.669s] -- Generating done
+[3.669s] -- Build files have been written to: /home/robotai/tut_ws/build/iar_dijkstra_planner
+[3.683s] Invoked command in '/home/robotai/tut_ws/build/iar_dijkstra_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotai/tut_ws/src/iar_dijkstra_planner -DCMAKE_INSTALL_PREFIX=/home/robotai/tut_ws/install/iar_dijkstra_planner
+[3.686s] Invoking command in '/home/robotai/tut_ws/build/iar_dijkstra_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/tut_ws/build/iar_dijkstra_planner -- -j6 -l6
+[3.762s] [ 50%] [32mBuilding CXX object CMakeFiles/iar_dijkstra_planner.dir/src/iar_dijkstra_planner.cpp.o[0m
+[3.783s] In file included from [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:1[m[K:
+[3.783s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/include/iar_dijkstra_planner/iar_dijkstra_planner.hpp:4:10:[m[K [01;31m[Kfatal error: [m[Kiar_dijkstra_planner/visibility_control.h: No such file or directory
+[3.783s]     4 | #include [01;31m[K"iar_dijkstra_planner/visibility_control.h"[m[K
+[3.783s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.783s] compilation terminated.
+[3.801s] gmake[2]: *** [CMakeFiles/iar_dijkstra_planner.dir/build.make:76: CMakeFiles/iar_dijkstra_planner.dir/src/iar_dijkstra_planner.cpp.o] Error 1
+[3.801s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/iar_dijkstra_planner.dir/all] Error 2
+[3.801s] gmake: *** [Makefile:146: all] Error 2
+[3.808s] Invoked command in '/home/robotai/tut_ws/build/iar_dijkstra_planner' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/tut_ws/build/iar_dijkstra_planner -- -j6 -l6

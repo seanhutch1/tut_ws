@@ -39,6 +39,8 @@ IarDijkstraPlanner::configure(
         logger_, "Configuring plugin %s of type IarDijkstraPlanner", planner_name_.c_str()
     );
 
+    // Create a planner based on the received new costmap size
+    planner_ = std::make_unique<NavFn>(costmap_->getSizeInCellsX(), costmap_->getSizeInCellsY());
 }
 
 void
@@ -63,7 +65,9 @@ IarDijkstraPlanner::cleanup()
     RCLCPP_INFO(
         logger_, "Cleaning up plugin %s of type IarDijkstraPlanner", planner_name_.c_str()
     );
+    planner_.reset();
 }
+
 
 nav_msgs::msg::Path 
 IarDijkstraPlanner::createPlan(
@@ -73,12 +77,10 @@ IarDijkstraPlanner::createPlan(
     nav_msgs::msg::Path path;
 
     unsigned int mx, my;
-    if(!costmap_->worldToMap(goal_pose.pose.position.x, goal_pose.pose.position.y, mx, my))
-    {
+    if(!costmap_->worldToMap(goal_pose.pose.position.x, goal_pose.pose.position.y, mx, my)){
         RCLCPP_WARN(logger_, "The goal pose is off the global costmap. Planning will fail.");
         return path;
-    }
-    else
+    }else
     {   
         // Check wether the goal pose is in an lethal obstacle cell
         if (costmap_->getCost(mx, my) == nav2_costmap_2d::LETHAL_OBSTACLE)
@@ -87,44 +89,82 @@ IarDijkstraPlanner::createPlan(
             return path;
         }
     }
+    int map_goal[2];
+    map_goal[0] = mx;
+    map_goal[1] = my;
     if(!costmap_->worldToMap(start_pose.pose.position.x, start_pose.pose.position.y, mx, my))
     {
         RCLCPP_WARN(logger_, "The start pose is off the global costmap. Planning will fail.");
         return path;
     }
+    int map_start[2];
+    map_start[0] = mx;
+    map_start[1] = my;
 
     path.header.stamp = parent_node_->now();
     path.header.frame_id = global_frame_;
+    // clear the starting cell within the costmap because we know it can't be an obstacle
+    costmap_->setCost(mx, my, nav2_costmap_2d::FREE_SPACE);
 
-    float interpolation_resolution = 0.1;
+    std::unique_lock<nav2_costmap_2d::Costmap2D::mutex_t> lock(*(costmap_->getMutex()));
+    int nx, ny;
+    nx = costmap_->getSizeInCellsX(); // Accessor for the x size of the costmap in cells
+    ny = costmap_->getSizeInCellsY(); // Accessor for the y size of the costmap in cells
 
-    int total_number_of_loop = std::hypot(goal_pose.pose.position.x - start_pose.pose.position.x, 
-      goal_pose.pose.position.y - start_pose.pose.position.y)/interpolation_resolution;
+    // check the costmap whether is outdated, if it is outdated, update the costmap in planner
+    if (!planner_.get() || planner_->nx_ != nx || planner_->ny_ != ny)
+      planner_->setNavArr(nx, ny);
 
-    double x_increment = (goal_pose.pose.position.x - start_pose.pose.position.x)/total_number_of_loop;
-    double y_increment = (goal_pose.pose.position.y - start_pose.pose.position.y)/total_number_of_loop;
+    planner_->setCostmap(costmap_->getCharMap());
+    lock.unlock();
 
-    for(int i = 0; i<total_number_of_loop; ++i)
-    {
-      geometry_msgs::msg::PoseStamped pose;
-      pose.pose.position.x = start_pose.pose.position.x + x_increment * i;
-      pose.pose.position.y = start_pose.pose.position.y + y_increment * i;
-      pose.pose.position.z = 0.0;
-      pose.pose.orientation.x = 0.0;
-      pose.pose.orientation.y = 0.0;
-      pose.pose.orientation.z = 0.0;
-      pose.pose.orientation.w = 1.0;
-      pose.header.stamp = parent_node_->now();
-      pose.header.frame_id = global_frame_;
-      path.poses.push_back(pose);
+    planner_->setStart(map_start);
+    planner_->setGoal(map_goal);
+    if(planner_->setNavFn()){ // check if navfn is setup properlly
+      // check if navfn can be computed to find a path
+      if(planner_->propDijkstra(std::max(nx * ny / 20, nx + ny))){
+        if(!getPathFromPotential(path)){
+              RCLCPP_ERROR(logger_, "Failed to create a plan from potential when a legal"
+              " potential was found. This shouldn't happen.");
+        }
+        else{
+          geometry_msgs::msg::PoseStamped goal = goal_pose;
+          goal.header.stamp = parent_node_->now();
+          path.poses.push_back(goal);
+        }
+      }
     }
-
-    geometry_msgs::msg::PoseStamped goal = goal_pose;
-    goal.header.stamp = parent_node_->now();
-    goal.header.frame_id = global_frame_;
-    path.poses.push_back(goal);
-
     return path;
+}
+
+bool
+IarDijkstraPlanner::getPathFromPotential(nav_msgs::msg::Path & path)
+{
+  path.poses.clear();
+  const int & max_cycles = (costmap_->getSizeInCellsX() >= costmap_->getSizeInCellsY()) ?
+    (costmap_->getSizeInCellsX() * 4) : (costmap_->getSizeInCellsY() * 4);
+  int path_len = planner_->calcPath(max_cycles);
+  if (path_len == 0) {
+    return false;
+  }
+
+  for(int i = path_len - 1; i>=0; --i){
+    double world_x, world_y;
+    costmap_->mapToWorld(planner_->pathx_[i], planner_->pathy_[i], world_x, world_y);
+    geometry_msgs::msg::PoseStamped pose;
+    pose.pose.position.x = world_x;
+    pose.pose.position.y = world_y;
+    pose.pose.position.z = 0.0;
+    pose.pose.orientation.x = 0.0;
+    pose.pose.orientation.y = 0.0;
+    pose.pose.orientation.z = 0.0;
+    pose.pose.orientation.w = 1.0;
+    pose.header.stamp = parent_node_->now();
+    pose.header.frame_id = global_frame_;
+    path.poses.push_back(pose);
+  }
+
+  return !path.poses.empty();
 }
 
 

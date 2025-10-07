@@ -1,0 +1,86 @@
+[0.046s] Invoking command in '/home/robotai/tut_ws/build/iar_dijkstra_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/tut_ws/build/iar_dijkstra_planner -- -j6 -l6
+[0.117s] [ 50%] [32mBuilding CXX object CMakeFiles/iar_dijkstra_planner.dir/src/iar_dijkstra_planner.cpp.o[0m
+[0.389s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:[m[K In constructor ‘[01m[Kiar_dijkstra_planner::IarDijkstraPlanner::IarDijkstraPlanner()[m[K’:
+[0.389s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:9:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_[m[K’ was not declared in this scope
+[0.389s]     9 |   [01;31m[Ktf_[m[K = nullptr;
+[0.389s]       |   [01;31m[K^~~[m[K
+[0.390s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:10:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcostmap_[m[K’ was not declared in this scope
+[0.390s]    10 |   [01;31m[Kcostmap_[m[K = nullptr;
+[0.390s]       |   [01;31m[K^~~~~~~~[m[K
+[0.391s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:[m[K In destructor ‘[01m[Kvirtual iar_dijkstra_planner::IarDijkstraPlanner::~IarDijkstraPlanner()[m[K’:
+[0.391s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger_[m[K’ was not declared in this scope
+[0.392s]    16 |     [01;31m[Klogger_[m[K, "Destroying plugin %s of type IarDijkstraPlanner",
+[0.392s]       |     [01;31m[K^~~~~~~[m[K
+[0.393s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:17:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanner_name_[m[K’ was not declared in this scope
+[0.393s]    17 |     [01;31m[Kplanner_name_[m[K.c_str()
+[0.393s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[0.393s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:15:3:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[0.393s]    15 |   [01;31m[KRCLCPP_INFO[m[K(
+[0.393s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[0.394s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:[m[K At global scope:
+[0.394s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:24:11:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_lifecycle[m[K’ does not name a type
+[0.394s]    24 |     const [01;31m[Krclcpp_lifecycle[m[K::LifecycleNode::WeakPtr & parent, //shared pointer to parent node
+[0.394s]       |           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.394s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:24:42:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[0.394s]    24 |     const rclcpp_lifecycle::LifecycleNode[01;31m[K::[m[KWeakPtr & parent, //shared pointer to parent node
+[0.394s]       |                                          [01;31m[K^~[m[K
+[0.395s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:24:42:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[0.395s]    24 |     const rclcpp_lifecycle::LifecycleNode[01;31m[K:[m[K[32m[K:[m[KWeakPtr & parent, //shared pointer to parent node
+[0.395s]       |                                          [01;31m[K^[m[K[32m[K~[m[K
+[0.395s]       |                                          [32m[K)[m[K
+[0.395s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:23:30:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[0.395s]    23 | IarDijkstraPlanner::configure[01;36m[K([m[K
+[0.395s]       |                              [01;36m[K^[m[K
+[0.395s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:24:42:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+[0.395s]    24 |     const rclcpp_lifecycle::LifecycleNode[01;31m[K::[m[KWeakPtr & parent, //shared pointer to parent node
+[0.395s]       |                                          [01;31m[K^~[m[K
+[0.395s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:45:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid iar_dijkstra_planner::IarDijkstraPlanner::activate()[m[K’
+[0.395s]    45 | [01;31m[KIarDijkstraPlanner[m[K::activate()
+[0.395s]       | [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.395s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:45:1:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid iar_dijkstra_planner::IarDijkstraPlanner::activate()[m[K’
+[0.395s] In file included from [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:1[m[K:
+[0.395s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/include/iar_dijkstra_planner/iar_dijkstra_planner.hpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass iar_dijkstra_planner::IarDijkstraPlanner[m[K’ defined here
+[0.395s]     9 | class [01;36m[KIarDijkstraPlanner[m[K
+[0.395s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.395s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:53:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid iar_dijkstra_planner::IarDijkstraPlanner::deactivate()[m[K’
+[0.396s]    53 | [01;31m[KIarDijkstraPlanner[m[K::deactivate()
+[0.396s]       | [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.396s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:53:1:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid iar_dijkstra_planner::IarDijkstraPlanner::deactivate()[m[K’
+[0.396s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/include/iar_dijkstra_planner/iar_dijkstra_planner.hpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass iar_dijkstra_planner::IarDijkstraPlanner[m[K’ defined here
+[0.396s]     9 | class [01;36m[KIarDijkstraPlanner[m[K
+[0.396s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.396s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:61:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid iar_dijkstra_planner::IarDijkstraPlanner::cleanup()[m[K’
+[0.396s]    61 | [01;31m[KIarDijkstraPlanner[m[K::cleanup()
+[0.396s]       | [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.396s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:61:1:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid iar_dijkstra_planner::IarDijkstraPlanner::cleanup()[m[K’
+[0.396s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/include/iar_dijkstra_planner/iar_dijkstra_planner.hpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass iar_dijkstra_planner::IarDijkstraPlanner[m[K’ defined here
+[0.396s]     9 | class [01;36m[KIarDijkstraPlanner[m[K
+[0.396s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.396s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:68:1:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ does not name a type
+[0.396s]    68 | [01;31m[Knav_msgs[m[K::msg::Path
+[0.396s]       | [01;31m[K^~~~~~~~[m[K
+[0.735s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[0.735s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[0.735s]                  from [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:133[m[K:
+[0.735s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:134:66:[m[K [01;31m[Kerror: [m[K‘[01m[Knav2_core[m[K’ does not name a type
+[0.735s]   134 | PLUGINLIB_EXPORT_CLASS(iar_dijkstra_planner::IarDijkstraPlanner, [01;31m[Knav2_core[m[K::GlobalPlanner)
+[0.735s]       |                                                                  [01;31m[K^~~~~~~~~[m[K
+[0.738s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::ProxyExec0()[m[K’:
+[0.738s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:134:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_base[m[K’ was not declared in this scope
+[0.738s]   134 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(iar_dijkstra_planner::IarDijkstraPlanner, nav2_core::GlobalPlanner)
+[0.738s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.738s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:134:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<{anonymous}::ProxyExec0::_derived, <expression error> >(const char [41], const char [25])[m[K’
+[0.738s]   134 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(iar_dijkstra_planner::IarDijkstraPlanner, nav2_core::GlobalPlanner)
+[0.738s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.738s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K:
+[0.738s] [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const std::string&, const std::string&)[m[K’
+[0.738s]   210 | void [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+[0.738s]       |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[0.738s] [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.738s] [01m[K/home/robotai/tut_ws/src/iar_dijkstra_planner/src/iar_dijkstra_planner.cpp:134:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[0.738s]   134 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(iar_dijkstra_planner::IarDijkstraPlanner, nav2_core::GlobalPlanner)
+[0.738s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.781s] gmake[2]: *** [CMakeFiles/iar_dijkstra_planner.dir/build.make:76: CMakeFiles/iar_dijkstra_planner.dir/src/iar_dijkstra_planner.cpp.o] Error 1
+[0.782s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/iar_dijkstra_planner.dir/all] Error 2
+[0.782s] gmake: *** [Makefile:146: all] Error 2
+[0.784s] Invoked command in '/home/robotai/tut_ws/build/iar_dijkstra_planner' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/tut_ws/build/iar_dijkstra_planner -- -j6 -l6

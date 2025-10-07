@@ -1,0 +1,4 @@
+Invoking command in '/home/robotai/tut_ws/build/iar_dijkstra_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/tut_ws/build/iar_dijkstra_planner -- -j6 -l6
+Invoked command in '/home/robotai/tut_ws/build/iar_dijkstra_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/tut_ws/build/iar_dijkstra_planner -- -j6 -l6
+Invoking command in '/home/robotai/tut_ws/build/iar_dijkstra_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotai/tut_ws/build/iar_dijkstra_planner
+Invoked command in '/home/robotai/tut_ws/build/iar_dijkstra_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotai/tut_ws/build/iar_dijkstra_planner

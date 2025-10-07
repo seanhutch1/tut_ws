@@ -24,7 +24,10 @@ find_package(tf2_ros REQUIRED)
 find_package(nav2_costmap_2d REQUIRED)
 find_package(pluginlib REQUIRED)
 
-add_library(iar_dijkstra_planner src/iar_dijkstra_planner.cpp)
+pluginlib_export_plugin_description_file(nav2_core iar_dijkstra_planner.xml)
+
+
+add_library(iar_dijkstra_planner src/iar_dijkstra_planner.cpp src/navfn.cpp)
 target_compile_features(iar_dijkstra_planner PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 target_include_directories(iar_dijkstra_planner PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -65,9 +68,9 @@ install(
 )
 
 install(DIRECTORY
-launch
-config
-DESTINATION share/${PROJECT_NAME}/
+  launch
+  config
+  DESTINATION share/${PROJECT_NAME}/
 )
 
 if(BUILD_TESTING)

@@ -30,5 +30,6 @@
 
   <export>
     <build_type>ament_cmake</build_type>
+    <nav2_core plugin="${prefix}/iar_dijkstra_planner.xml" />
   </export>
 </package>
