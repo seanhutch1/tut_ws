@@ -106,6 +106,9 @@ IarDijkstraPlanner::createPlan(
     // clear the starting cell within the costmap because we know it can't be an obstacle
     costmap_->setCost(mx, my, nav2_costmap_2d::FREE_SPACE);
 
+
+
+
     std::unique_lock<nav2_costmap_2d::Costmap2D::mutex_t> lock(*(costmap_->getMutex()));
     int nx, ny;
     nx = costmap_->getSizeInCellsX(); // Accessor for the x size of the costmap in cells
@@ -117,6 +120,12 @@ IarDijkstraPlanner::createPlan(
 
     planner_->setCostmap(costmap_->getCharMap());
     lock.unlock();
+
+
+
+
+
+    
 
     planner_->setStart(map_start);
     planner_->setGoal(map_goal);
